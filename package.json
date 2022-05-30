@@ -1,0 +1,26 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "node.js command line application that takes in information about employees and generates an HTML webpage that displays summaries for each person.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHopkins387/Hopkins_Profile_Generator.git"
+  },
+  "author": "Jarrett Hopkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHopkins387/Hopkins_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/JHopkins387/Hopkins_Profile_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2",
+    "jest": "^27.5.1"
+  }
+}
