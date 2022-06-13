@@ -125,10 +125,10 @@ const promptUser = (userArr) => {
         }
     ])
         .then(data => {
-            //push data to array
+            //push data to array.
             userArr.push(data);
 
-            //if addTeammate was selected, run promptUser() again passing in the userArr
+            //if addTeammate was selected by user, run promptUser() again passing in the userArr.
             if (data.addTeammate) {
                 return promptUser(userArr);
             } else {
@@ -161,15 +161,6 @@ let createTeam = function (userArr) {
 
 promptUser()
 
-// let createTeam = function (userArr) {
-//     userArr.forEach((element) => {
-//         // console.log(element.jobTitle);
-//         if (element.jobTitle === 'Manager') {
-//             addMember = new Manager(userArr);
-//             console.log(addMember);
-//         }
-//     })
-// }
 
 
 

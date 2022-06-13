@@ -1,7 +1,7 @@
 {
   "name": "teamprofilegenerator",
   "version": "1.0.0",
-  "description": "node.js command line application that takes in information about employees and generates an HTML webpage that displays summaries for each person.",
+  "description": "a node.js command line application that uses information given bythe user about employees and makes an HTML webpage that displays summaries for each person.",
   "main": "index.js",
   "directories": {
     "lib": "lib"

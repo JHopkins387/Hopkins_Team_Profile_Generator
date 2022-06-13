@@ -1,8 +1,8 @@
 
-//entire function will create employee cards
+//function creates employee cards
 const generateEmployeeCards = employees => {
 
-    //function to display unique properties for each employee type
+    //function to display unique attributes for each employee type
     let displayExtraInfo = function (employees) {
         if (employees.officeNumber) {
             return `Office Number: ${employees.officeNumber}`
@@ -40,8 +40,8 @@ const generateEmployeeCards = employees => {
 </head>
 
 <body>
-<!-- NAV BAR -->
-<nav class="navbar" style="background: linear-gradient(#166485, #d84737)">
+<!-- Navagation Bar -->
+<nav class="navbar" style="background: linear-gradient(#5c5bd3, #5cc6d3)">
     <header class="h1 p-4 mx-auto text-white"> My Team </header>
 </nav>
 
@@ -54,7 +54,7 @@ const generateEmployeeCards = employees => {
     
     <div class="col p-3">
         <div class="card mb-3 shadow p-3 mb-5 rounded" style="max-width: 18rem; background-color:#dee8ec;">
-            <div class="card-header h3 text-white bg-primary" style="background: linear-gradient(#166485, #d84737)"> ${employees[i].name} 
+            <div class="card-header h3 text-white bg-primary" style="background: linear-gradient(#166485, #73a2b5)"> ${employees[i].name} 
             <br> 
             <span class="h5"> ${displayRole(employees[i])} </span>
             </div>
