@@ -4,6 +4,7 @@
   A Node.js command line application that takes information provided by the user about employees and creates an HTML webpage. This webpage includes summaries for each employee and has links to their email and github profile page if they have one. 
 
   Link for video demonstration: https://drive.google.com/file/d/1qlIVcUZMiYbszCcYzTPq8OA2Y_CQvg-G/view
+  Link to sample html page: https://jhopkins387.github.io/Hopkins_Team_Profile_Generator/dist/index.html
 
   ## Installation: 
   Clone or fork the repository to your computer.
